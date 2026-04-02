@@ -1,0 +1,30 @@
+.mainapp{
+    background-image: linear-gradient(to bottom,#ace0f9,#2563eb);
+    text-align: center;
+    height: 100vh;
+    color: red;
+   
+}
+.mainapp .list button{
+    margin: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    gap: 20px;
+    cursor: pointer;
+    color: #7b8794;
+    
+}
+.mainapp .data{
+   width: 650px;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(4,auto);
+    grid-area: auto;
+    position: relative;
+    left: 450px;
+    padding: 10px;
+    gap: 0;
+    list-style: none;
+    border: 2px solid rgb(17, 125, 203);
+}

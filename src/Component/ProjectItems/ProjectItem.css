@@ -1,0 +1,23 @@
+.card-container{
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    border: 1px solid gainsboro;
+    text-align: center;
+    border-radius: 10px;
+}
+
+img{
+    width: 320px;
+    height:50% ;
+}
+
+h3{
+    font-size: 25px;
+    color: cornflowerblue;
+    font-weight: bold;
+}
+p{
+    font-size: 15px;
+    color: slateblue;
+}
