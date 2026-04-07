@@ -10,12 +10,7 @@ function Cointoss() {
     const Tossfunc=()=>{
         setval( Math.floor(Math.random()*2));
     console.log("value ",val)
-    // if(val==0){
-    //     setHead(pre=>pre+1)
-    // }
-    // else{
-    //     setTail(pre=>pre+1)
-    // }
+    
     val===0?setHead(pre=>pre+1):setTail(pre=>pre+1)
     }
 

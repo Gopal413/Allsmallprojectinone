@@ -48,20 +48,11 @@ function Contact() {
         setNumberval("");
     }
 
-   // const favourite =contactlt.isFavourite?false:true;
-   // console.log("favourite",contactlt.isFavourite)
-    // contactlt.map(id=>(
-
-    //         even.id == 
-    //     ))
-   
-    
 
     const newcontact =(id)=>{
 
         setcontactlt(pre=>pre.map(each=>each.id===id?{...each,isFavourite:!each.isFavourite}:each))
-        // setcontactlt.filter(each=>(
-        //     each.id1=id?ran:
+       
          }
 
   return (

@@ -4,7 +4,7 @@ import "./index.css"
 function ContactList(props) {
     const {contactlist,favfun} =props
     const {id,name,Number,isFavourite} =contactlist;
-    //const favourite =isFavourite?"true":"false";
+   
      
   return (
     <div>

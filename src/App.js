@@ -5,8 +5,8 @@ import ProjectComponent from './Component/ProjectComponent/ProjectComponent';
 function App() {
   return (
     <>
-    <div>
-
+    <div >
+    
       <ProjectComponent/>
 
     </div>

@@ -5,9 +5,12 @@ import Countriescapital from "../CountriesCapitals/Countriescapital";
 import Contact from "../ContactsTodo/Contact";
 import MainReview from "../Reviews/MainReview/MainReview";
 import "./ProjectComponent.css";
+import MainFAQS from "../FAQs/MainFAQS";
+import MainDigitalTimer from "../DigitalTimer/MainDigitalTimer";
+import MainStopWatch from "../StopWatch/MainStopWatch";
 
 const ProjectComponent = () => {
-  // DEFAULT PAGE: change this id if you want another first component
+  
   const [activeTab, setActiveTab] = useState("chooseimage");
 
   const menuItems = [
@@ -15,6 +18,9 @@ const ProjectComponent = () => {
     { id: "cointoss", component: <Cointoss />, label: "Coin Toss" },
     { id: "Contact", component: <Contact />, label: "Contacts" },
     { id: "Review", component: <MainReview />, label: "Reviews" },
+    { id: "FAQS", component: <MainFAQS />, label: "FAQS" },
+    { id: "DigitalTimer", component: <MainDigitalTimer />, label: "DigitalTimer" },
+    { id: "StopWatch", component: <MainStopWatch />, label: "StopWatch" },
     {
       id: "Countriescapital",
       component: <Countriescapital />,
