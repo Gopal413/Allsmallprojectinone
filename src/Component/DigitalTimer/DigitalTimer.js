@@ -93,7 +93,7 @@ function Digitaltime({ minutes, seconds, setTotalSeconds, running, setRunning, o
   return (
     <div className="w-full max-w-md bg-slate-950/70 border border-slate-700 rounded-2xl px-6 py-5 flex flex-col items-center gap-5 shadow-[0_20px_45px_rgba(15,23,42,0.95)]">
       {/* display */}
-      <div className="w-40 h-40 rounded-full border-[6px] border-cyan-300/70 flex items-center justify-center bg-slate-900/80 shadow-[0_0_50px_rgba(34,211,238,0.8)]">
+      <div className="w-60 h-40 rounded-full border-[6px] border-cyan-300/70 flex items-center justify-center bg-slate-900/80 shadow-[0_0_50px_rgba(34,211,238,0.8)]">
         <span className="text-4xl md:text-5xl font-black tracking-[0.25em] text-cyan-300">
           {mm}:{ss}
         </span>
